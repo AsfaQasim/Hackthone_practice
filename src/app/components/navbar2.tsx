@@ -2,6 +2,10 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Sales from "./sales";
+import Categories from "./categories";
+import Button from "./button";
+import Products from "./products";
+import Ourproducts from "./ourproducts";
 
 const Navbar2 = () => {
   return (
@@ -60,6 +64,11 @@ const Navbar2 = () => {
         />
       </div>
       <Sales/>
+      <Button/>
+      <Categories/>
+      <Products/>
+      <Ourproducts/>
+
     </div>
    
   );
