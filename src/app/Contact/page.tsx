@@ -1,3 +1,5 @@
+
+
 import React from "react";
 import Image from "next/image";
 
@@ -27,20 +29,21 @@ const Contact = () => {
               placeholder="Your Phone*"
               className="border border-black pl-4 py-2 h-[40px] w-full"
             />
+            <div>  <input
+              type="text"
+              placeholder="Your Phone*"
+              className="border border-black pl-4 py-2 h-[40px] w-full"
+            /></div>
+             
           </div>
 
-          {/* Last Input Below with Larger Size */}
-          <div className="mt-6 w-full">
-            <input
-              type="text"
-              placeholder="Your Message*"
-              className="border border-black pl-4 py-3 h-[60px] w-[100%] max-w-[800px]"
-            />
-          </div>
+         
         </div>
-      </div>
+      
+     
+        </div>
+    
     </div>
   );
 };
-
 export default Contact;
