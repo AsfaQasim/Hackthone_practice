@@ -4,7 +4,7 @@ import Button from "./button";
 
 const OurProduct = () => {
   return (
-    <div className="w-full py-32">
+    <div className="w-full py-20">
       {/* Container for the section */}
       <div className="w-full h-auto  px-16">
         {/* Header */}
@@ -54,7 +54,7 @@ const OurProduct = () => {
         </div>
       </div>
       {/* Button Section */}
-      <div className="flex justify-center items-center relative bottom-28">
+      <div className="flex justify-center items-center">
         <Button />
       </div>
     </div>
