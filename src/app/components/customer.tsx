@@ -21,7 +21,7 @@ const Customer = () => {
   ];
 
   return (
-    <div className="flex justify-center px-16 py-72 gap-10">
+    <div className="flex justify-center gap-10 w-full py-20">
       {services.map((service, index) => (
         <div
           key={index}

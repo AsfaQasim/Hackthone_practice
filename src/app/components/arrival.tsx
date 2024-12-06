@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Arrival = () => {
   return (
-    <div className="w-full relative bottom-96 py-5">
-      <div className="h-[135px] px-16">
+    <div className="w-full bottom-96 py-5">
+      <div className="px-16">
         <div className="flex justify-start items-center gap-3">
           {/* Red image */}
           <Image src="/red.png" alt="red" width={20} height={40} />
@@ -15,19 +15,10 @@ const Arrival = () => {
           <h1 className="text-[36px] font-semibold">New Arrival</h1>
         </div>
         <div
-          className="grid grid-cols-4 grid-rows-4 gap-4 h-[300px] py-10"
-          style={{
-            gridTemplateRows: "repeat(4, 1fr)",
-            gridTemplateColumns: "repeat(4, 1fr)",
-          }}
+          className="grid grid-cols-4 grid-rows-2 gap-4 h-[800px] pt-10"
         >
           {/* First Div */}
-          <div
-            className="bg-black col-start-1 row-start-1 row-end-6 w-[570px] py-6 relative"
-            style={{
-              gridColumn: "1/3",
-              gridRow: "1 / 6",
-            }}
+          <div className="bg-black col-span-2 row-span-2 pt-6 relative"
           >
             {/* Image */}
             <Image
@@ -35,7 +26,7 @@ const Arrival = () => {
               alt="speaker"
               width={570}
               height={300}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
             {/* Text Inside Image */}
             <div className="absolute bottom-6 left-6 text-white">
@@ -48,12 +39,7 @@ const Arrival = () => {
           </div>
 
           {/* Second Div */}
-          <div
-            className="bg-green-600 col-start-3 col-end-5 row-start-1 row-end-3 w-[570px] h-[284px] relative"
-            style={{
-              gridColumn: "3/5",
-              gridRow: "1 / 3",
-            }}
+          <div className="bg-[#0D0D0D] col-span-2 row-span-1 relative"
           >
             {/* Image */}
             <Image
@@ -61,7 +47,7 @@ const Arrival = () => {
               alt="women"
               width={570}
               height={284}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
             {/* Text Inside Image */}
             <div className="absolute bottom-6 left-6 text-white">
@@ -74,12 +60,7 @@ const Arrival = () => {
           </div>
 
           {/* Third Div */}
-          <div
-            className="bg-black col-start-3 col-end-4 row-start-3 row-end-6 w-[270px] h-[284px] relative"
-            style={{
-              gridColumn: "3/4",
-              gridRow: "3 / 6",
-            }}
+          <div className="bg-black col-span-1 p-3 relative"
           >
             {/* Image */}
             <Image
@@ -87,7 +68,7 @@ const Arrival = () => {
               alt="roll"
               width={270}
               height={284}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
             {/* Text Inside Image */}
             <div className="absolute bottom-6 left-6 text-white">
@@ -98,12 +79,7 @@ const Arrival = () => {
           </div>
 
           {/* Fourth Div */}
-          <div
-            className="bg-blue-600 col-start-4 col-end-5 row-start-3 row-end-6 w-[270px] h-[284px] relative"
-            style={{
-              gridColumn: "4/5",
-              gridRow: "3 / 6",
-            }}
+          <div className="bg-blue-600 col-span-1 p-3 relative"
           >
             {/* Image */}
             <Image
@@ -111,7 +87,7 @@ const Arrival = () => {
               alt="perfume"
               width={270}
               height={284}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
             {/* Text Inside Image */}
             <div className="absolute bottom-6 left-6 text-white">

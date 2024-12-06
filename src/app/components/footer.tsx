@@ -8,7 +8,7 @@ import { CiInstagram } from "react-icons/ci";
 const Footer = () => {
   return (
     <div>
-      <div className="bg-black w-full h-auto text-white py-36 px-16 relative bottom-20">
+      <div className="bg-black w-full text-white py-20 px-12 relative">
         <div className="flex justify-between px-12 gap-3">
           {/* Exclusive Section */}
           <div className="w-1/5">
