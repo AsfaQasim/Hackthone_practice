@@ -6,6 +6,7 @@ import Categories from "./categories";
 import Button from "./button";
 import Products from "./products";
 import Ourproducts from "./ourproducts";
+import Arrival from "./arrival";
 
 const Navbar2 = () => {
   return (
@@ -68,6 +69,7 @@ const Navbar2 = () => {
       <Categories/>
       <Products/>
       <Ourproducts/>
+      <Arrival/>
 
     </div>
    
