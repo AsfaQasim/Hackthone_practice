@@ -5,7 +5,7 @@ const Sales = () => {
   return (
     <div className="w-full ">
       {/* Container for the section */}
-      <div className="w-full h-[493px] py-20 px-16">
+      <div className="w-full h-[493px] py-14 px-16">
         <div className="flex justify-start items-center gap-3">
           {/* Red image */}
           <Image src="/red.png" alt="red" width={20} height={40} />

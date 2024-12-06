@@ -1,11 +1,11 @@
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
-const Navbar2 = () => {
+const Navs2 = () => {
   return (
     <div>
-      {/* Container for the navbar */}
+         {/* Container for the navbar */}
       <div className="bg-[#eeeeee] flex items-center justify-between py-7 px-4 sm:px-6 md:px-16">
         {/* "Exclusive" Title aligned to the left */}
         <h1 className="font-bold text-lg sm:mr-0 mr-4">Exclusive</h1>
@@ -45,12 +45,8 @@ const Navbar2 = () => {
           </div>
         </div>
       </div>
-
-
-
     </div>
-   
-  );
-};
+  )
+}
 
-export default Navbar2;
+export default Navs2

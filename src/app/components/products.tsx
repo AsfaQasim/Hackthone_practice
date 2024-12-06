@@ -4,9 +4,9 @@ import Image from "next/image";
 const Products = () => {
   return (
     <div>
-      <div className="w-full ">
+      <div className="w-full">
         {/* Container for the section */}
-        <div className="w-full h-[493px] py-20 px-16">
+        <div className="w-full h-[493px] px-16">
           <div className="flex justify-start items-center gap-3">
             {/* Red image */}
             <Image src="/red.png" alt="red" width={20} height={40} />
