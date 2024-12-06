@@ -27,6 +27,14 @@ const Contact = () => {
               placeholder="Your Phone*"
               className="border border-black pl-4 py-2 h-[40px] w-full"
             />
+
+          </div>
+          <div>
+          <input
+              type="text"
+              placeholder="Your Phone*"
+              className="border border-black pl-4 py-2 h-[40px] w-full"
+            /> 
           </div>
         </div>
       </div>

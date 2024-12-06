@@ -79,7 +79,7 @@ const Arrival = () => {
           </div>
 
           {/* Fourth Div */}
-          <div className="bg-blue-600 col-span-1 p-3 relative"
+          <div className="bg-black col-span-1 p-3 relative"
           >
             {/* Image */}
             <Image
