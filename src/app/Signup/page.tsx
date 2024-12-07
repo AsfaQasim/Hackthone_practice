@@ -6,6 +6,7 @@ const Signup = () => {
     <div>
       <div className="min-h-[70vh] max-w-full py-24 flex flex-col lg:flex-row justify-center items-center">
         {/* Image Section */}
+        
         <div className="w-full lg:w-1/2 flex justify-center mb-12 lg:mb-0">
           <Image
             src={"/signup.png"}
