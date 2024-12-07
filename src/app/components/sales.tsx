@@ -14,9 +14,16 @@ const Sales = () => {
         </div>
         <div className="flex justify-between items-center">
           <h1 className="text-[36px] font-semibold">Flash Sales</h1>
-          <Image src={"/time.png"} alt="time" width={298} height={62} />
+          <Image
+  className="px-4 sm:px-8" // Added margin-top for mobile
+  src={"/time.png"}
+  alt="time"
+  width={298}
+  height={62}
+/>
           <Image src={"/arrow.png"} alt="arrow" width={100} height={62} />
         </div>
+
 
         {/* Responsive grid columns */}
         <div className="max-w-[1308px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-9">

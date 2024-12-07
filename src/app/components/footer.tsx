@@ -8,14 +8,14 @@ import { CiInstagram } from "react-icons/ci";
 const Footer = () => {
   return (
     <div>
-      <div className="bg-black w-full text-white py-20 px-12 relative">
-        <div className="flex justify-between px-12 gap-3">
+      <div className="bg-black w-full text-white py-20 px-6 sm:px-8 lg:px-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
           {/* Exclusive Section */}
-          <div className="w-1/5">
+          <div className="w-full">
             <h1 className="text-2xl font-semibold mb-4">Exclusive</h1>
             <h2 className="text-xl mb-2">Subscribe</h2>
             <h3 className="text-lg mb-6">Get 10% off your first order.</h3>
-            <div className="relative w-44">
+            <div className="relative w-full sm:w-44">
               <input
                 type="text"
                 placeholder="Enter your Email"
@@ -34,7 +34,7 @@ const Footer = () => {
           </div>
 
           {/* Support Section */}
-          <div className="w-1/5">
+          <div className="w-full">
             <h1 className="text-2xl font-semibold mb-4">Support</h1>
             <h2 className="text-xl mb-2">
               111 Bijoy Sarani, Dhaka, DH 1515, Bangladesh
@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
 
           {/* Account Section */}
-          <div className="w-1/5">
+          <div className="w-full">
             <h1 className="text-2xl font-semibold mb-4">Account</h1>
             <h2 className="text-xl mb-2">My Account</h2>
             <h3 className="text-lg mb-6">Login/Register</h3>
@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Link Section */}
-          <div className="w-1/5">
+          <div className="w-full">
             <h1 className="text-2xl font-semibold mb-4">Quick Link</h1>
             <h2 className="text-xl mb-2">Privacy Policy</h2>
             <h3 className="text-lg mb-6">Terms of Use</h3>
@@ -62,11 +62,11 @@ const Footer = () => {
           </div>
 
           {/* Download App Section */}
-          <div className="w-1/5">
+          <div className="w-full">
             <h1 className="text-2xl font-semibold mb-4">Download App</h1>
             <h2 className="text-xl mb-2">Save $3 with app new user only.</h2>
             <Image src={"/google.png"} alt="google" width={198} height={84} />
-            <div className="w-full flex justify-center py-4 gap-8">
+            <div className="w-full flex justify-center py-4 gap-6 sm:gap-8 mt-6">
               <a
                 href="https://www.facebook.com/profile.php?id=61556456222532&mibextid=ZbWKwL"
                 target="_blank"

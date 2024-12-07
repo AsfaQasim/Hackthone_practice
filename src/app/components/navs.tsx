@@ -9,7 +9,7 @@ const Navs = () => {
         <Image src={"/frame.png"} alt="frame" width={217} height={344} className="mb-4 sm:mb-0" />
 
         <Image
-          className="px-4 sm:px-8"
+          className="px-4 sm:px-8 sm:mt-2 lg:mt-12  md:mb-10"
           src={"/Image.png"}
           alt="Image"
           width={892}

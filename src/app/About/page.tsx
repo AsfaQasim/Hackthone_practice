@@ -1,15 +1,16 @@
 import React from "react";
 import Image from "next/image";
+import Customer from "../components/customer";
 
 const About = () => {
   return (
     <div>
-      <div className="w-full min-h-[70vh] px-16 py-20">
+      <div className="max-w-full min-h-[70vh] px-6 sm:px-8 lg:px-16 py-20">
         {/* Breadcrumb */}
         <h1 className="text-lg">Home / About</h1>
 
         {/* Heading */}
-        <h1 className="font-bold text-[54px] py-4">Our Story</h1>
+        <h1 className="font-bold text-[36px] sm:text-[48px] lg:text-[54px] py-4">Our Story</h1>
 
         {/* Content Section */}
         <div className="flex flex-col lg:flex-row justify-between items-start gap-10">
@@ -36,7 +37,7 @@ const About = () => {
               alt="sideimage"
               width={705}
               height={609}
-              className="object-cover"
+              className="object-cover w-full"
             />
           </div>
         </div>
@@ -46,52 +47,57 @@ const About = () => {
           {/* Column 1 */}
           <div className="w-full h-[230px] bg-[#F5F5F5] border border-gray-300 flex flex-col justify-center items-center hover:bg-red-500">
             <Image
-              src={"/cellphone.png"}
+              src={"/about1.png"}
               alt="cellphone"
               width={56}
               height={56}
               className="mb-3"
             />
-            <h1 className="text-center text-sm">Phones</h1>
+            <h1 className="text-center text-2xl sm:text-3xl lg:text-4xl font-bold">10.5k</h1>
+            <p className="text-lg font-semibold">Sellers active on our site</p>
           </div>
 
           {/* Column 2 */}
           <div className="w-full h-[230px] bg-[#F5F5F5] border border-gray-300 flex flex-col justify-center items-center hover:bg-red-500">
             <Image
-              src={"/computer.png"}
+              src={"/about2.png"}
               alt="Computers"
               width={56}
               height={56}
               className="mb-3"
             />
-            <h1 className="text-center text-sm">Computers</h1>
+            <h1 className="text-center text-2xl sm:text-3xl lg:text-4xl font-bold">33k</h1>
+            <p className="text-lg font-semibold">Monthly Product Sale</p>
           </div>
 
           {/* Column 3 */}
           <div className="w-full h-[230px] bg-[#F5F5F5] border border-gray-300 flex flex-col justify-center items-center hover:bg-red-500">
             <Image
-              src={"/watch.png"}
+              src={"/about3.png"}
               alt="Smartwatch"
               width={56}
               height={56}
               className="mb-3"
             />
-            <h1 className="text-center text-sm">Smartwatch</h1>
+            <h1 className="text-center text-2xl sm:text-3xl lg:text-4xl font-bold">45.5K</h1>
+            <p className="text-lg font-semibold">Monthly Product Sale</p>
           </div>
 
           {/* Column 4 */}
           <div className="w-full h-[230px] bg-[#F5F5F5] border border-gray-300 flex flex-col justify-center items-center hover:bg-red-500">
             <Image
-              src={"/camera.png"}
+              src={"/about4.png"}
               alt="Camera"
               width={56}
               height={56}
               className="mb-3"
             />
-            <h1 className="text-center text-sm">Camera</h1>
+            <h1 className="text-center text-2xl sm:text-3xl lg:text-4xl font-bold">25K</h1>
+            <p className="text-lg font-semibold">Annual Gross Sale</p>
           </div>
         </div>
       </div>
+      <Customer/>
     </div>
   );
 };

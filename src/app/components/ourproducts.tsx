@@ -20,7 +20,7 @@ const OurProduct = () => {
         </div>
 
         {/* Responsive grid columns */}
-        <div className="max-w-[1308px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-9">
+        <div className="max-w-[1308px] grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-4 gap-6 py-9">
           {/* Product Cards */}
           {[
             { image: "/food.png", title: "Breed Dry Dog Food" },
